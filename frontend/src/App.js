@@ -6,7 +6,7 @@ function App() {
   const [recommendations, setRecommendations] = useState([]);
   const [command, setCommand] = useState("");
   const [loading, setLoading] = useState(false);
-  const [language, setLanguage] = useState("en-US");
+  const language = "en-US";
   const [listening, setListening] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
 
