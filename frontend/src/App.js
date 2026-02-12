@@ -10,7 +10,7 @@ function App() {
   const [listening, setListening] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
 
-  const API = "http://localhost:5000";
+  const API = "https://voice-shopping-backend-1ivl.onrender.com";
 
   // Fetch list
   const fetchList = async () => {
